@@ -1,9 +1,9 @@
-This Repo currently monitor the push and pull request actions of action-repo.
+This Repo currently monitor the push and pull request actions of action-repo(https://github.com/baljeet0298/action-repo).
 
 	tech used: Python, Flask, Webhook, Jinja, ngrok
 	
 Upcoming changes:
-	periodically update the UI after some interval of times
+	Periodically update the UI after some interval of times
 
 *******************
 
