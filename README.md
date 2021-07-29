@@ -1,6 +1,9 @@
-# Dev Assessment - Webhook Receiver
+This Repo currently monitor the push and pull request actions of action-repo.
 
-Please use this repository for constructing the Flask webhook receiver.
+	tech used: Python, Flask, Webhook, Jinja, ngrok
+	
+Upcoming changes:
+	periodically update the UI after some interval of times
 
 *******************
 
