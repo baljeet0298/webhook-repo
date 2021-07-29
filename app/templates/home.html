@@ -1,0 +1,5 @@
+{% if "PUSH" == data.action %}
+  <p id='a'>{{ data.author }}</p> pushed to <p id='b'>{{ data.to_branch }}</p> on <p id='c'>{{ data.timestamp }}</p>
+{% else %}
+  <p id='a'>{{ data.author }}</p> submitted a pull request from <p id='d'>{{ data.from_branch }}</p> to <p id='b'>{{ data.to_branch }}</p> on <p id='c'>{{ data.timestamp }}</p> </p>
+{% endif %}
